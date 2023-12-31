@@ -129,7 +129,7 @@ const Main = () => {
             return(
               <div key={id}  data-aos="fade-up" className="singleDestination">
                 <div className="imageDiv">
-                  <img src={imgSrc} alt={destTitle} />
+                  <img src={imgSrc} alt={destTitle} loading="lazy"/>
                 </div>
 
                 <div className="cardInfo">
